@@ -10,12 +10,12 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET&#39;S BUILD SOMETHING TOGETHER
+            LET&#39;S HELP SOMEONE, TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#00A86B]'> Juan</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
+          <h1 className='py-2 text-gray-700'>Engineering Manager & Teacher</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
             I’m focused on building responsive front-end web applications
             integrating back-end technologies.
