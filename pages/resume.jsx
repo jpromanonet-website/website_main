@@ -89,6 +89,9 @@ const resume = () => {
             <span className='font-bold'>Front End</span>
             <span className='px-2'>:</span>Javascript
             <span className='px-2'>|</span>Typescript
+            <span className='px-2'>|</span>React JS
+            <span className='px-2'>|</span>Redux
+            <span className='px-2'>|</span>Next JS
             Practitioner
           </p>
         </div>
