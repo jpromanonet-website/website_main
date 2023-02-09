@@ -67,7 +67,7 @@ const resume = () => {
             <span className='px-2'>|</span>C#
             <span className='px-2'>|</span>C++
             <span className='px-2'>|</span>Java
-            <span className='px-2'>|</span>Javascript
+            <span className='px-2'>|</span>PHP
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
