@@ -178,7 +178,20 @@ const resume = () => {
           </ul>
         </div>
 
-        
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Token Sport
+            </span>
+            <span className='px-2'>|</span>Buenos Aires, AR
+          </p>
+          <p className='py-1 italic'>CTO (Chief Technology Officer) (01/2021 - 04/2022)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            I coordinate and monitor the implementation of the different projects in the company on web3 with Solidity.            
+            </li>
+          </ul>
+        </div>
       
         <div className='py-6'>
           <p className='italic'>
