@@ -92,7 +92,9 @@ const resume = () => {
             <span className='px-2'>|</span>React JS
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Next JS
-            Practitioner
+            <span className='px-2'>|</span>Angular
+            <span className='px-2'>|</span>Vue JS
+            <span className='px-2'>|</span>JQuery
           </p>
         </div>
 
