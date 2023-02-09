@@ -151,6 +151,21 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
+              Coderhouse
+            </span>
+            <span className='px-2'>|</span>Buenos Aires, AR
+          </p>
+          <p className='py-1 italic'>Professor (03/2022 - Current)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Professor of the "Back-End Development Course" coursework and Angular Web Development for the B2B area where I teach people in different companies how to code with Angular or Node JS.
+            </li>
+          </ul>
+        </div>
+        
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
             Andreani Logistic Group
             </span>
             <span className='px-2'>|</span>Buenos Aires, AR
@@ -163,38 +178,47 @@ const resume = () => {
           </ul>
         </div>
 
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Coderhouse
-            </span>
-            <span className='px-2'>|</span>Buenos Aires, AR
-          </p>
-          <p className='py-1 italic'>Professor (03/2022 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-            Professor of the "Back-End Development Course" coursework and Angular Web Development for the B2B area where I teach people in different companies how to code with Angular or Node JS.
-            </li>
-          </ul>
-        </div>
+        
       
-        {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>University of Lomas de Zamora</span>
             <span className='px-2'>|</span>Buenos Aires, AR
           </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
+          <p className='py-1 italic'>Professor (02/2022 – 06/2022)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-          Professor at the software development under degree, actually teaching the coursework for the following subjects:
             <li>
-              Introduction to Computer Science
-            </li>
-            <li>
-              Operatives Systems.
+            Professor at the software development under degree, actually teaching the coursework for the following subjects: Introduction to Computer Science and Operative Systems
             </li>
           </ul>
         </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>Nucba</span>
+            <span className='px-2'>|</span>Buenos Aires, AR
+          </p>
+          <p className='py-1 italic'>Full Stack Mentor (09/2021 – 04/2022)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              Professor at the Full Stack Development Bootcamp using the MERN stack.
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>Guayerd</span>
+            <span className='px-2'>|</span>Buenos Aires, AR
+          </p>
+          <p className='py-1 italic'>Full Stack Mentor (09/2021 – 04/2022)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              Professor at the Full Stack Development Bootcamp using the MERN stack.
+            </li>
+          </ul>
+        </div>
+
       </div>
     </>
   );
