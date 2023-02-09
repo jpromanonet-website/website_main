@@ -48,15 +48,15 @@ const resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated software professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+        I am a motivated leader who loves to help their team mates to achieve their professional and personal goals, and possess solid interpersonal abilities and complex problem-solving skills. My track record of critical thinking, idea generation, and optimizing efficiencies is both effective and proven.
+        </p>
+        <br/>
+        <p>
+        As a highly analytical and innovative software professional, I possess extensive experience in customer service, team leadership, and organizational effectiveness in fast-paced and challenging environments. 
+        </p>
+        <br/>
+        <p>
+        My ability to develop effective strategies and drive streamlined operations has been honed through my diverse analytical skills, team collaboration, and relationship building abilities.
         </p>
 
         {/* Skills */}
