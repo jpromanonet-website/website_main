@@ -111,6 +111,18 @@ const resume = () => {
             <span className='px-2'>|</span>Redis
             <span className='px-2'>|</span>Graph QL
           </p>
+          <p className='py-2'>
+            <span className='font-bold'>Tools</span>
+            <span className='px-2'>:</span>Git
+            <span className='px-2'>|</span>Github
+            <span className='px-2'>|</span>Gitlab
+            <span className='px-2'>|</span>Docker
+            <span className='px-2'>|</span>Kubernetes
+            <span className='px-2'>|</span>Composer
+            <span className='px-2'>|</span>Bash
+            <span className='px-2'>|</span>Linux
+            <span className='px-2'>|</span>Win Server
+          </p>
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
