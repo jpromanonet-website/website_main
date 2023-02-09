@@ -76,7 +76,7 @@ const resume = () => {
             <span className='px-2'>|</span>Django
             <span className='px-2'>|</span>Python
             <span className='px-2'>|</span>Node JS
-            <span className='px-2'>|</span>
+            <span className='px-2'>|</span>R
           </p>
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
