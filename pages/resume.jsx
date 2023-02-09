@@ -163,26 +163,17 @@ const resume = () => {
           </ul>
         </div>
 
-
-        {/* Personal Experience */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
+              Professor
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Buenos Aires, AR
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
+          <p className='py-1 italic'>Coderhouse (03/2022 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
-            </li>
-            <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+            Professor of the "Back-End Development Course" coursework and Angular Web Development for the B2B area where I teach people in different companies how to code with Angular or Node JS.
             </li>
           </ul>
         </div>
