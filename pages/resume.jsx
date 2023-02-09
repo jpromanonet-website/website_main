@@ -239,10 +239,10 @@ const resume = () => {
 
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>Guayerd</span>
+            <span className='font-bold'>El Cronista Comercial</span>
             <span className='px-2'>|</span>Buenos Aires, AR
           </p>
-          <p className='py-1 italic'>Full Stack Mentor (09/2021 – 04/2022)</p>
+          <p className='py-1 italic'>Software Engineer (09/2021 – 04/2022)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Professor at the Full Stack Development Bootcamp using the MERN stack.
