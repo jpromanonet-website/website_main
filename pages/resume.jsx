@@ -62,7 +62,7 @@ const resume = () => {
         <div className='text-center py-4'>
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
-            <span className='font-bold'>Backend</span>
+            <span className='font-bold'>Back End</span>
             <span className='px-2'>:</span>C
             <span className='px-2'>|</span>C#
             <span className='px-2'>|</span>C++
@@ -86,7 +86,7 @@ const resume = () => {
             <span className='px-2'>|</span>.Net Core
           </p>
           <p className='py-2'>
-            <span className='font-bold'>Frontend</span>
+            <span className='font-bold'>Front End</span>
             <span className='px-2'>|</span>Amazon Web Services Cloud
             Practitioner
           </p>
