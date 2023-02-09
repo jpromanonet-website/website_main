@@ -155,13 +155,10 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Buenos Aires, AR
           </p>
-          <p className='py-1 italic'>Director of Software Development (01/2022 - 01/2023)</p>
+          <p className='py-1 italic'>Director of Software Development (04/2022 - 01/2023)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            Designs, implements, and refines product development, testing, and processes, manages staff and assigns tasks to engineering and technical personnel.
-            </li>
-            <li>
-            Leading teams in the development of new products, solutions, and processes while taking care of the development teams by helping them to achieve their professional and personal goals.
+            Currently leading the developers and architects in the company (almost 200 people) while working in tandem with C-Level stakeholders to bring innovation to the company.
             </li>
           </ul>
         </div>
