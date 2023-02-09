@@ -166,11 +166,11 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Professor
+              Coderhouse
             </span>
             <span className='px-2'>|</span>Buenos Aires, AR
           </p>
-          <p className='py-1 italic'>Coderhouse (03/2022 - Current)</p>
+          <p className='py-1 italic'>Professor (03/2022 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
             Professor of the "Back-End Development Course" coursework and Angular Web Development for the B2B area where I teach people in different companies how to code with Angular or Node JS.
@@ -186,31 +186,12 @@ const resume = () => {
           </p>
           <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          Professor at the software development under degree, actually teaching the coursework for the following subjects:
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+              Introduction to Computer Science
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+              Operatives Systems.
             </li>
           </ul>
         </div>
