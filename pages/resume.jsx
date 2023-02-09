@@ -139,20 +139,10 @@ const resume = () => {
           <p className='py-1 italic'>Engineering Manager (2023 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+            Designs, implements, and refines product development, testing, and processes, manages staff and assigns tasks to engineering and technical personnel.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
-            </li>
-            <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+            Leading teams in the development of new products, solutions, and processes while taking care of the development teams by helping them to achieve their professional and personal goals.
             </li>
           </ul>
         </div>
