@@ -95,6 +95,12 @@ const resume = () => {
             <span className='px-2'>|</span>Angular
             <span className='px-2'>|</span>Vue JS
             <span className='px-2'>|</span>JQuery
+            <span className='px-2'>|</span>CSS3 
+            <span className='px-2'>|</span>Tailwind
+            <span className='px-2'>|</span>Babel
+            <span className='px-2'>|</span>HTML5
+            <span className='px-2'>|</span>Bootstrap
+            <span className='px-2'>|</span>Sass
           </p>
         </div>
 
