@@ -104,20 +104,12 @@ const resume = () => {
           </p>
           <p className='py-2'>
             <span className='font-bold'>Databases</span>
-            <span className='px-2'>:</span>Javascript
-            <span className='px-2'>|</span>Typescript
-            <span className='px-2'>|</span>React JS
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>Angular
-            <span className='px-2'>|</span>Vue JS
-            <span className='px-2'>|</span>JQuery
-            <span className='px-2'>|</span>CSS3 
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span>Babel
-            <span className='px-2'>|</span>HTML5
-            <span className='px-2'>|</span>Bootstrap
-            <span className='px-2'>|</span>Sass
+            <span className='px-2'>:</span>MySQL
+            <span className='px-2'>|</span>MS-SQL
+            <span className='px-2'>|</span>PostgreSQL
+            <span className='px-2'>|</span>MongoDB
+            <span className='px-2'>|</span>Redis
+            <span className='px-2'>|</span>Graph QL
           </p>
         </div>
 
