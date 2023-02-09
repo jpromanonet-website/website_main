@@ -177,17 +177,12 @@ const resume = () => {
             </li>
           </ul>
         </div>
-
-        {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
-        </h5>
       
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+            <span className='font-bold'>University of Lomas de Zamora</span>
+            <span className='px-2'>|</span>Buenos Aires, AR
           </p>
           <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
