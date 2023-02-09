@@ -87,7 +87,8 @@ const resume = () => {
           </p>
           <p className='py-2'>
             <span className='font-bold'>Front End</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
+            <span className='px-2'>:</span>Javascript
+            <span className='px-2'>|</span>Typescript
             Practitioner
           </p>
         </div>
