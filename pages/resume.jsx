@@ -192,6 +192,24 @@ const resume = () => {
             </li>
           </ul>
         </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            The Bit
+            </span>
+            <span className='px-2'>|</span>Buenos Aires, AR
+          </p>
+          <p className='py-1 italic'>CTO (Chief Technology Officer) (04/2020 - 04/2022)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Coordination of multiple development teams and development of the tech department strategic vision, budget generation and client relationships management (it was a client faced position).          
+            </li>
+            <li>
+              Architecture design of the different projects, tools and processes of the company.
+            </li>
+          </ul>
+        </div>
       
         <div className='py-6'>
           <p className='italic'>
