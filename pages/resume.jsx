@@ -68,14 +68,14 @@ const resume = () => {
             <span className='px-2'>|</span>C++
             <span className='px-2'>|</span>Java
             <span className='px-2'>|</span>PHP
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span>Code Igniter
+            <span className='px-2'>|</span>Laravel
+            <span className='px-2'>|</span>Flask
+            <span className='px-2'>|</span>Golang
+            <span className='px-2'>|</span>Rust
+            <span className='px-2'>|</span>Django
+            <span className='px-2'>|</span>Python
+            <span className='px-2'>|</span>Node JS
           </p>
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
