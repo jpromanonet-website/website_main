@@ -129,6 +129,7 @@ const resume = () => {
           Professional Experience
         </h5>
         {/* Experience */}
+
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
@@ -136,7 +137,25 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Buenos Aires, AR
           </p>
-          <p className='py-1 italic'>Engineering Manager (2023 - Current)</p>
+          <p className='py-1 italic'>Engineering Manager (01/2023 - Current)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Designs, implements, and refines product development, testing, and processes, manages staff and assigns tasks to engineering and technical personnel.
+            </li>
+            <li>
+            Leading teams in the development of new products, solutions, and processes while taking care of the development teams by helping them to achieve their professional and personal goals.
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Andreani Logistic Group
+            </span>
+            <span className='px-2'>|</span>Buenos Aires, AR
+          </p>
+          <p className='py-1 italic'>Director of Software Development (01/2022 - 01/2023)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
             Designs, implements, and refines product development, testing, and processes, manages staff and assigns tasks to engineering and technical personnel.
