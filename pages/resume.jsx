@@ -82,6 +82,7 @@ const resume = () => {
             <span className='px-2'>|</span>PyCharm
             <span className='px-2'>|</span>Rails
             <span className='px-2'>|</span>Ruby
+            <span className='px-2'>|</span>.Net
           </p>
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
