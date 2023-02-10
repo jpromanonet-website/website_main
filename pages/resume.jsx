@@ -245,7 +245,7 @@ const resume = () => {
           <p className='py-1 italic'>Software Engineer (09/2017 – 04/2020)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Professor at the Full Stack Development Bootcamp using the MERN stack.
+            Linux servers implementation and ITIL servicies, SQL development of store procedures and report, financial systems analytics, automation of business workflows and tests.
             </li>
           </ul>
         </div>
