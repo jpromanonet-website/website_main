@@ -247,6 +247,9 @@ const resume = () => {
             <li>
             Linux servers implementation and ITIL servicies, SQL development of store procedures and report, financial systems analytics, automation of business workflows and tests.
             </li>
+            <li>
+            Scripts and custom software development for the company.
+            </li>
           </ul>
         </div>
 
