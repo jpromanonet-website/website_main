@@ -261,10 +261,8 @@ const resume = () => {
           <p className='py-1 italic'>Software Engineer (12/2015 – 09/2017)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            Linux servers implementation and ITIL servicies, SQL development of store procedures and report, financial systems analytics, automation of business workflows and tests.
-            </li>
-            <li>
-            Scripts and custom software development for the company.
+            Development, testing, unit test and documentation of banking software for Banco
+Macro, Banco Columbia, Banco Ciudad, JP Morgan & Chase, Banco Comafi and Banco Hipotecario.
             </li>
           </ul>
         </div>
