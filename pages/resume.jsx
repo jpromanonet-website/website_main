@@ -255,10 +255,10 @@ const resume = () => {
 
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>El Cronista Comercial</span>
+            <span className='font-bold'>Accusys Technology</span>
             <span className='px-2'>|</span>Buenos Aires, AR
           </p>
-          <p className='py-1 italic'>Software Engineer (09/2017 – 04/2020)</p>
+          <p className='py-1 italic'>Software Engineer (12/2015 – 04/2020)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
             Linux servers implementation and ITIL servicies, SQL development of store procedures and report, financial systems analytics, automation of business workflows and tests.
