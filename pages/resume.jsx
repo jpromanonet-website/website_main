@@ -68,8 +68,8 @@ const resume = () => {
         </p>
 
         {/* Skills */}
-        <div className="text-center py-4">
-          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+        <div className="text py-4">
+          <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Back End</span>
             <span className="px-2">:</span>C<span className="px-2">|</span>C#
@@ -132,7 +132,7 @@ const resume = () => {
           </p>
         </div>
 
-        <h5 className="text-center underline text-[18px] py-4">
+        <h5 className="text-center bg-[#d0d4d6] text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
@@ -323,6 +323,9 @@ const resume = () => {
             </li>
           </ul>
         </div>
+
+        {/* Educational Trainning*/}
+        <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Educational Training</h5>
       </div>
     </>
   );
