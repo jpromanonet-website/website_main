@@ -47,24 +47,33 @@ const resume = () => {
           </div>
         </div>
         <p>
-          I am a motivated leader who loves to help their team mates to achieve
-          their professional and personal goals, and possess solid interpersonal
-          abilities and complex problem-solving skills. My track record of
-          critical thinking, idea generation, and optimizing efficiencies is
-          both effective and proven.
+          As a motivated leader, I am dedicated to helping my team reach their
+          goals and succeed in both their professional and personal lives. I
+          have a passion for supporting my team and a strong interpersonal
+          skillset that allows me to think critically, generate new ideas, and
+          optimize efficiencies.
         </p>
         <br />
         <p>
-          As a highly analytical and innovative software professional, I possess
-          extensive experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments.
+          With a background in software, I bring a wealth of experience in
+          customer service, team leadership, and organizational effectiveness to
+          the table. I have a proven track record of success in fast-paced and
+          challenging environments, thanks to my strategic thinking and
+          collaboration abilities.
         </p>
         <br />
         <p>
-          My ability to develop effective strategies and drive streamlined
-          operations has been honed through my diverse analytical skills, team
-          collaboration, and relationship building abilities.
+          As a former CTO of two companies, I have a solid foundation in driving
+          streamlined operations and maximizing value for my organizations. My
+          diverse analytical skills and hands-on approach have made a
+          significant impact in my past roles.
+        </p>
+        <br />
+        <p>
+          I am eager to bring my technical expertise and leadership skills to a
+          new team and continue making a positive impact. Helping my team is a
+          joy for me, and I am confident in my ability to make a difference in
+          any organization.
         </p>
 
         {/* Skills */}
