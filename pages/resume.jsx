@@ -326,6 +326,14 @@ const resume = () => {
 
         {/* Educational Trainning*/}
         <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Education</h5>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">Under-degree in Software Development</span>
+            <span className="px-2">|</span>Computer Science
+          </p>
+          <p className="py-1 italic">Universidad de Lomas de Zamora (2019 – 2021)</p>
+        </div>
       </div>
     </>
   );
