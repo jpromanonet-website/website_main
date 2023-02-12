@@ -13,7 +13,8 @@ import Firebase from "../public/assets/skills/firebase.png";
 import NextJS from "../public/assets/skills/nextjs.png";
 import AWS from "../public/assets/skills/aws.png";
 import Redux from "../public/assets/skills/redux.svg";
-
+import C from "../public/assets/skills/c.svg"
+import Cpp from "../public/assets/skills/cplusplus.svg";
 {
   /* Creating skill cards*/
 }
@@ -121,6 +122,16 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Redux</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Cpp} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>C++</h3>
               </div>
             </div>
           </div>
