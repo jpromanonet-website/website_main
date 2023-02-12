@@ -9,7 +9,7 @@ const resume = () => {
         <title>Juan P. Romano | Resume</title>
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I am a motivated leader who loves to help their team mates to achieve their professional and personal goals."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
