@@ -381,6 +381,9 @@ const resume = () => {
             University of Buenos Aires (2013 – 2017)
           </p>
         </div>
+
+        {/* Certifications */}
+        <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Certifications</h5>
       </div>
     </>
   );
