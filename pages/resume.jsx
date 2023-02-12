@@ -325,7 +325,7 @@ const resume = () => {
         </div>
 
         {/* Educational Trainning*/}
-        <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Educational Training</h5>
+        <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Education</h5>
       </div>
     </>
   );
