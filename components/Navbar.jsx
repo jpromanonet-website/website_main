@@ -125,7 +125,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[#00A86B]">
                 Let&#39;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
@@ -139,7 +139,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/fireclint"
+                  href="https://github.com/jpromanonet"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -153,14 +153,6 @@ const Navbar = () => {
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
                     <AiOutlineMail />
-                  </div>
-                </Link>
-                <Link href="/resume">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <BsFillPersonLinesFill />
                   </div>
                 </Link>
               </div>
