@@ -165,7 +165,7 @@ const resume = () => {
           <p className="py-1 italic">Professor (03/2022 - Current)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Professor of the "Back-End Development Course" coursework and
+              Professor of the Back-End Development Course coursework and
               Angular Web Development for the B2B area where I teach people in
               different companies how to code with Angular or Node JS.
             </li>
@@ -257,6 +257,20 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold">Guayerd</span>
+            <span className="px-2">|</span>Buenos Aires, AR
+          </p>
+          <p className="py-1 italic">Full Stack Mentor (09/2021 – 04/2022)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Professor at the Full Stack Development Bootcamp using the MERN
+              stack.
+            </li>
+          </ul>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold">El Cronista Comercial</span>
             <span className="px-2">|</span>Buenos Aires, AR
           </p>
@@ -295,7 +309,7 @@ const resume = () => {
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Development of an ERP and the company Intranet, using PHP, ASP,
-              MySQL, MS-SQL, as well as a MRP with NodeJS taking data from PLC's
+              MySQL, MS-SQL, as well as a MRP with NodeJS taking data from PLCs
               controller using assemble and dumping them into MS-SQL entries.
             </li>
             <li>
