@@ -330,7 +330,7 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold">
-              Postgraduate, Bussiness English Program
+              Postgraduate, Business English Program
             </span>
             <span className="px-2">|</span>English Language
           </p>
