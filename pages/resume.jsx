@@ -368,7 +368,7 @@ const resume = () => {
             <span className="px-2">|</span>Computer Science
           </p>
           <p className="py-1 italic">
-            Universidad de Lomas de Zamora (2019 – 2021)
+            Universidad Nacional de Lomas de Zamora (2019 – 2021)
           </p>
         </div>
 
