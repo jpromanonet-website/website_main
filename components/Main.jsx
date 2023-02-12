@@ -27,6 +27,8 @@ const Main = () => {
                 <FaLinkedinIn />
               </div>
             </a>
+              <div className=" p-1">
+              </div>
             <a
               href="https://github.com/jpromanonet"
               target="_blank"
