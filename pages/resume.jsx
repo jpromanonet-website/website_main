@@ -383,7 +383,7 @@ const resume = () => {
         </div>
 
         {/* Certifications */}
-        <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Certifications</h5>
+        <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Languages</h5>
       </div>
     </>
   );
