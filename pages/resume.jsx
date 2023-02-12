@@ -63,10 +63,10 @@ const resume = () => {
         </p>
         <br />
         <p>
-          As a former CTO of three companies, I have a solid foundation in
-          driving streamlined operations and maximizing value for my
-          organizations. My diverse analytical skills and hands-on approach have
-          made a significant impact in my past roles.
+          As a former CTO of two companies, I have a solid foundation in driving
+          streamlined operations and maximizing value for my organizations. My
+          diverse analytical skills and hands-on approach have made a
+          significant impact in my past roles.
         </p>
         <br />
         <p>
