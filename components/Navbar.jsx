@@ -66,9 +66,9 @@ const Navbar = () => {
               <Link href="/#skills">Skills</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="http://portfolio.jpromano.net" target="_blank">
+              <a href="http://portfolio.jpromano.net" target="_blank">
                 Portfolio
-              </Link>
+              </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/resume">Resume</Link>
