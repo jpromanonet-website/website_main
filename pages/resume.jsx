@@ -329,10 +329,26 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">Under-degree in Software Development</span>
+            <span className="font-bold">
+              Postgraduate, Bussiness English Program
+            </span>
+            <span className="px-2">|</span>English Language
+          </p>
+          <p className="py-1 italic">
+            Universidad Isabel I (2019 – 2020)
+          </p>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">
+              Under-degree in Software Development
+            </span>
             <span className="px-2">|</span>Computer Science
           </p>
-          <p className="py-1 italic">Universidad de Lomas de Zamora (2019 – 2021)</p>
+          <p className="py-1 italic">
+            Universidad de Lomas de Zamora (2019 – 2021)
+          </p>
         </div>
       </div>
     </>
