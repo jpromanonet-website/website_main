@@ -382,8 +382,29 @@ const resume = () => {
           </p>
         </div>
 
-        {/* Certifications */}
+        {/* Languages */}
         <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Languages</h5>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">English</span>
+            <span className="px-2">|</span>Advanced - (Business English Program) & EF (C2)
+          </p>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">French</span>
+            <span className="px-2">|</span>Advanced - (B2)
+          </p>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">Russian</span>
+            <span className="px-2">|</span>Advanced - (C1)
+          </p>
+        </div>
       </div>
     </>
   );
