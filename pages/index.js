@@ -10,7 +10,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Juan P. Romano</title>
-        <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
     <About />
