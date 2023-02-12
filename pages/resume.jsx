@@ -388,7 +388,8 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold">English</span>
-            <span className="px-2">|</span>Advanced - (Business English Program) & EF (C2)
+            <span className="px-2">|</span>Advanced - (Business English Program)
+            & EF (C2)
           </p>
         </div>
 
@@ -403,6 +404,19 @@ const resume = () => {
           <p className="italic">
             <span className="font-bold">Russian</span>
             <span className="px-2">|</span>Advanced - (C1)
+          </p>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">Mandarin Chinese</span>
+            <span className="px-2">|</span>Advanced (HSK Level - C1)
+          </p>
+        </div>
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">Spanish</span>
+            <span className="px-2">|</span>Native
           </p>
         </div>
       </div>
