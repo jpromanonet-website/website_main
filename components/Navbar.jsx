@@ -94,11 +94,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
-                Let&#39;s build something legendary together
-              </p>
-            </div>
+            <div className="border-b border-gray-300 my-4"></div>
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
@@ -117,16 +113,11 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href="/#projects">
+              <a href="http://portfolio.jpromano.net" target="_blank">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Projects
+                  Portfolio
                 </li>
-              </Link>
-              <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
-                </li>
-              </Link>
+              </a>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
@@ -139,7 +130,7 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                  href="https://www.linkedin.com/in/jpromanonet"
                   target="_blank"
                   rel="noreferrer"
                 >
