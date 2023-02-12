@@ -17,6 +17,20 @@ import C from "../public/assets/skills/c.svg";
 import Cpp from "../public/assets/skills/cplusplus.svg";
 import Mongo from "../public/assets/skills/mongo.png";
 import Node from "../public/assets/skills/Node.png";
+import Csharp from "../public/assets/skills/csharp.svg";
+import Java from "../public/assets/skills/java.svg";
+import Angular from "../public/assets/skills/angular.svg";
+import Bash from "../public/assets/skills/bash.svg";
+import Django from "../public/assets/skills/django.svg";
+import Docker from "../public/assets/skills/docker.svg";
+import GraphQL from "../public/assets/skills/graph.svg";
+import Linux from "../public/assets/skills/linux.svg";
+import Mysql from "../public/assets/skills/mysql.svg";
+import php from "../public/assets/skills/php.svg";
+import python from "../public/assets/skills/python.svg";
+import typescript from "../public/assets/skills/typescript.svg";
+import vuejs from "../public/assets/skills/vue.svg";
+
 {
   /* Creating skill cards*/
 }
@@ -164,6 +178,26 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>C++</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Csharp} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>C#</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Java} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Java</h3>
               </div>
             </div>
           </div>
