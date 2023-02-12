@@ -9,7 +9,7 @@ const About = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#000]">About</p>
-          <h2 className="py-4">Who I Am</h2>
+          <h2 className="py-4">Who Am i?</h2>
           <p className="py-2 text-gray-600">
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
