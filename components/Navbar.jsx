@@ -51,6 +51,11 @@ const Navbar = () => {
               </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
+              <a href="https://divulgadoresporhobby.com" target="_blank">
+                Blog
+              </a>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/resume">Resume</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
