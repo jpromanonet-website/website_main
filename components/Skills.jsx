@@ -14,7 +14,7 @@ import Redux from "../public/assets/skills/redux.svg";
 import C from "../public/assets/skills/c.svg";
 import Cpp from "../public/assets/skills/cplusplus.svg";
 import Mongo from "../public/assets/skills/mongo.png";
-import Node from "../public/assets/skills/Node.png";
+import Node from "../public/assets/skills/node.png";
 import Java from "../public/assets/skills/java.svg";
 import Angular from "../public/assets/skills/angular.svg";
 import Bash from "../public/assets/skills/bash.svg";
