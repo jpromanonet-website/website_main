@@ -121,6 +121,11 @@ const Navbar = () => {
                   Portfolio
                 </li>
               </a>
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                <a href="https://divulgadoresporhobby.com" target="_blank">
+                  Blog
+                </a>
+              </li>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
