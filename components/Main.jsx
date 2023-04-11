@@ -9,7 +9,7 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-[#00A86B]"> Juan</span>
           </h1>
-          <h1 className="py-2 text-gray-700">Engineering Manager & Teache</h1>
+          <h1 className="py-2 text-gray-700">Engineering Manager & Teach</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             Empowering individuals and leading teams to success - I'm dedicated
             to teaching people how to code and guiding teams in the development
