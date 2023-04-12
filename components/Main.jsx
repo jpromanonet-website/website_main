@@ -12,7 +12,7 @@ const Main = () => {
           <h1 className="py-2 text-gray-700">Engineering Manager</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             Empowering individuals and leading teams to success - I'm dedicated
-            to teaching people how to code and guiding teams in the development
+            guiding teams in the development
             of innovative products, solutions, and processes. My passion lies in
             helping my teams reach their full potential, both personally and
             professionally
