@@ -12,10 +12,9 @@ const Main = () => {
           <h1 className="py-2 text-gray-700">Engineering Manager</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             Empowering individuals and leading teams to success - I'm dedicated
-            guiding teams in the development
-            of innovative products, solutions, and processes. My passion lies in
-            helping my teams reach their full potential, both personally and
-            professionally
+            on guiding teams in the development of innovative products,
+            solutions, and processes. My passion lies in helping my teams reach
+            their full potential, both personally and professionally
           </p>
           <div className="flex items-center justify-center max-w-[330px] m-auto py-4">
             <a
@@ -27,8 +26,7 @@ const Main = () => {
                 <FaLinkedinIn />
               </div>
             </a>
-              <div className=" p-1">
-              </div>
+            <div className=" p-1"></div>
             <a
               href="https://github.com/jpromanonet"
               target="_blank"
