@@ -220,20 +220,6 @@ const resume = () => {
           </ul>
         </div>
 
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold">University of Lomas de Zamora</span>
-            <span className="px-2">|</span>Buenos Aires, AR
-          </p>
-          <p className="py-1 italic">Professor (02/2022 – 06/2022)</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Professor at the software development under degree, actually
-              teaching the coursework for the following subjects: Introduction
-              to Computer Science and Operative Systems
-            </li>
-          </ul>
-        </div>
 
         <div className="py-6">
           <p className="italic">
