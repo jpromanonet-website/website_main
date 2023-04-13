@@ -167,18 +167,6 @@ const resume = () => {
         </div>
 
         <div className="py-6">
-          
-          <p className="py-1 italic">Professor (03/2022 - Current)</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Professor of the Back-End Development Course coursework and
-              Angular Web Development for the B2B area where I teach people in
-              different companies how to code with Angular or Node JS.
-            </li>
-          </ul>
-        </div>
-
-        <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">Andreani Logistic Group</span>
             <span className="px-2">|</span>Buenos Aires, AR
