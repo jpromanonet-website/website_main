@@ -223,7 +223,6 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
           </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Professor at the Full Stack Development Bootcamp using the MERN
               stack.
