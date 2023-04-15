@@ -223,7 +223,6 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
           </p>
-          <p className="py-1 italic">Full Stack Mentor (09/2021 – 04/2022)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Professor at the Full Stack Development Bootcamp using the MERN
