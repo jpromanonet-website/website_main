@@ -228,7 +228,6 @@ const resume = () => {
               stack.
             </li>
           </ul>
-        </div>
 
         <div className="py-6">
           <p className="italic">
