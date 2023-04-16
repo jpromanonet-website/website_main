@@ -227,7 +227,6 @@ const resume = () => {
               Professor at the Full Stack Development Bootcamp using the MERN
               stack.
             </li>
-          </ul>
 
         <div className="py-6">
           <p className="italic">
