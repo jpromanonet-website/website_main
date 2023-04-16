@@ -281,13 +281,11 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold">
-              Degree in Technologies for Organizations Management
+              Degree in Business and IT Systems Administration
             </span>
-            <span className="px-2">|</span>Computer Science
+            <span className="px-2">|</span>Business & Computer Science
           </p>
-          <p className="py-1 italic">
-            Universidad Nacional del Litoral (2023 – 2025)
-          </p>
+          <p className="py-1 italic">University of Palermo (2023 – 2027)</p>
         </div>
 
         <div className="py-6">
