@@ -280,17 +280,6 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">Degree in Business Administration</span>
-            <span className="px-2">|</span>Business Administration and
-            Management
-          </p>
-          <p className="py-1 italic">
-            Universidad Nacional de Quilmes (2023 – 2025)
-          </p>
-        </div>
-
-        <div className="py-6">
-          <p className="italic">
             <span className="font-bold">
               Degree in Technologies for Organizations Management
             </span>
