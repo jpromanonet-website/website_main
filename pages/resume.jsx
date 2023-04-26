@@ -283,10 +283,7 @@ const resume = () => {
             <span className="font-bold">
               Degree in Business and IT Systems Administration
             </span>
-            <span className="px-2">|</span>Business & Computer Science
-          </p>
-          <p className="py-1 italic">University of Palermo (2023 – 2027)</p>
-        </div>
+            <spa
 
         <div className="py-6">
           <p className="italic">
