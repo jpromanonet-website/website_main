@@ -272,6 +272,15 @@ const resume = () => {
               End user support, linux and Windows server administration, Active
               Directory.
             </li>
+
+            <br/>
+            Developed projects:
+            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+              <li><b>Intranet</b> (ASP Classic, MS-SQL, HTML5, CSS3, Bootstrap)</li>
+              <li><b>CRM</b> (Node JS, Express, HTML5, CSS3, Bootstrap, MS-SQL, MongoDB)</li>
+              <li><b>CMS</b> (Node JS, Express, HTML5, CSS3, Bootstrap, MS-SQL, MongoDB)</li>
+              <li><b>ERP</b> (Node JS, Express, HTML5, CSS3, Bootstrap, MS-SQL, MongoDB)</li>
+            </ul>
           </ul>
         </div>
 
