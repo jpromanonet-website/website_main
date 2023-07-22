@@ -353,7 +353,7 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">2023</span>
+            <span className="font-bold">2023 - Current</span>
             <span className="px-2">|</span>Volunteered as an IT interviewer, conducting mock interviews for junior IT trainee profiles in underserved
 communities with the non-governmental organization 'Junior Achievement.'
           </p>
@@ -361,17 +361,18 @@ communities with the non-governmental organization 'Junior Achievement.'
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">2023</span>
-            <span className="px-2">|</span>Volunteered as an IT interviewer, conducting mock interviews for junior IT trainee profiles in underserved
-communities with the non-governmental organization 'Junior Achievement.'
+            <span className="font-bold">2023 - Current</span>
+            <span className="px-2">|</span>Volunteered as a mentor for junior IT trainee profiles in underserved communities with the non-governmental
+organization 'Junior Achievement', helping them with their first steps on their professional carrers
           </p>
         </div>
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">2020</span>
-            <span className="px-2">|</span>Volunteered as an IT interviewer, conducting mock interviews for junior IT trainee profiles in underserved
-communities with the non-governmental organization 'Junior Achievement.'
+            <span className="font-bold">2020 - 2022</span>
+            <span className="px-2">|</span>Founded and led 'The Starting Dev,' a non-governmental organization where I volunteered as a Python instructor,
+teaching individuals with no prior knowledge of coding or computers. The organization grew to include five
+volunteers.
           </p>
         </div>
 
