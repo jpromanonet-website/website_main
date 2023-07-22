@@ -347,6 +347,17 @@ const resume = () => {
             <span className="px-2">|</span>Native
           </p>
         </div>
+
+        {/* Volunteer Experience */}
+        <h5 className="text-center text-[18px] py-4 bg-[#d0d4d6]">Volunteer Experience</h5>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold">2023</span>
+            <span className="px-2">|</span>Volunteered as an IT interviewer, conducting mock interviews for junior IT trainee profiles in underserved
+communities with the non-governmental organization 'Junior Achievement.'
+          </p>
+        </div>
       </div>
     </>
   );
