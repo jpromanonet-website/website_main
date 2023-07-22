@@ -217,6 +217,28 @@ const resume = () => {
               Architecture design of the different projects, tools and processes
               of the company.
             </li>
+            <br/>
+            Projects that I lead:
+            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+              <li><b>mateCRM</b> (Django, PostgreSQL, React JS, AWS)</li>
+              <li><b>Membly</b> (PHP, MySQL, AWS)</li>
+              <li><b>Be Fit</b> (Golang, AWS)</li>
+              <li><b>Mas Inversiones</b> (PHP, React JS, MySQL)</li>
+              <li><b>Liquidando</b> (Django, Cognito, AWS, React JS)</li>
+              <li><b>Africo Online</b> (Django, GraphQL, AWS)</li>
+              <li><b>NIC AR</b> (Django, PostgreSQL, Openshift)</li>
+              <li><b>Camplight</b> (Vue JS, MongoDB)</li>
+              <li><b>Transparent</b> (PHP, MySQL, Digital Ocean)</li>
+              <li><b>Natural Life</b> (PHP, MySQL)</li>
+              <li><b>Lajara</b> (PHP, MySQL)</li>
+              <li><b>Foot Fit</b> (React JS, React Native, Node JS, Mongo DB, AWS)</li>
+              <li><b>Cronica TV</b> (JSP, MySQL, AWS)</li>
+              <li><b>Repalanca</b> (Mongo, Express, Node, React)</li>
+              <li><b>American Express</b> (PHP, MySQL, AWS, React JS)</li>
+              <li><b>Obras Sanitarias Basket App</b> (Xamarin, .Net Core, MS-SQL)</li>
+              <li><b>Asistire App Ministerio de Educación</b> (Azure, .Net Core, Xamarin)</li>
+              <li><b>AySA ITIL Dashboard</b> (.Net Core, Angular, MS-SQL, Azure)</li>
+            </ul>
           </ul>
         </div>
 
@@ -233,6 +255,12 @@ const resume = () => {
               automation of business workflows and tests.
             </li>
             <li>Scripts and custom software development for the company.</li>
+            <br/>
+            Developed projects:
+            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+              <li><b>E-commerce Cronista Comercial</b> (Node JS, React JS, Angular JS, MongoDB, MS-SQL, Azure)</li>
+              <li><b>Quien es Quien</b> (React JS, Node JS, MongoDB, Azure)</li>
+            </ul>
           </ul>
         </div>
 
