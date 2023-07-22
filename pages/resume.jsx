@@ -180,6 +180,14 @@ const resume = () => {
               (almost 200 people) while working in tandem with C-Level
               stakeholders to bring innovation to the company.
             </li>
+            <br/>
+            Projects that I lead:
+            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+              <li><b>Mobile Picking</b></li>
+              <li><b>WMS</b></li>
+              <li><b>Software Factory</b></li>
+              <li><b>SPPS</b></li>
+            </ul>
           </ul>
         </div>
 
@@ -196,6 +204,12 @@ const resume = () => {
               I coordinate and monitor the implementation of the different
               projects in the company on web3 with Solidity.
             </li>
+            <br/>
+            Projects that I lead:
+            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+              <li><b>Token Sport Wallet</b> (React JS, React Native, Node JS, MongoDB, MySQL, AWS, Solidity)</li>
+              <li><b>Token Sport App</b> (React JS, React Native, Node JS, MongoDB, MySQL, AWS, Solidity)</li>
+            </ul>
           </ul>
         </div>
 
