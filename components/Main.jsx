@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Main = () => {
   return (
@@ -34,6 +35,16 @@ const Main = () => {
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
+              </div>
+            </a>
+            <div className=" p-1"></div>
+            <a
+              href="https://linktr.ee/jpromanonet"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill />
               </div>
             </a>
           </div>
