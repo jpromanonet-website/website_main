@@ -248,6 +248,13 @@ const resume = () => {
               software for Banco Macro, Banco Columbia, Banco Ciudad, JP Morgan
               & Chase, Banco Comafi and Banco Hipotecario.
             </li>
+            <br/>
+            Developed projects:
+            <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+              <li><b>COBIS</b> (C#, MS-SQL, SyBase, COBOL, z/OS, HTML, CSS, Javascript, ASP.net)</li>
+              <li><b>Probatch</b> (C#, MS-SQL, COBOL, z/OS, HTML, CSS, Javascript, ASP.net)</li>
+              <li><b> Macro Bank Home-banking</b> (C#, MS-SQL, COBOL, z/OS, HTML, CSS, Javascript, ASP.net)</li>
+            </ul>
           </ul>
         </div>
 
@@ -272,7 +279,6 @@ const resume = () => {
               End user support, linux and Windows server administration, Active
               Directory.
             </li>
-
             <br/>
             Developed projects:
             <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
