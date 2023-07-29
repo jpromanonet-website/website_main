@@ -411,7 +411,7 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold">2023 - Current</span>
-            <span className="px-2">|</span>Volunteered as an IT interviewer, conducting mock interviews for junior IT trainee profiles in underserved
+            <span className="px-2">|</span>Volunteered as an IT interviewer, conducting mock interviews for junior IT trainee profiles in under served
 communities with the non-governmental organization 'Junior Achievement.'
           </p>
         </div>
@@ -419,8 +419,8 @@ communities with the non-governmental organization 'Junior Achievement.'
         <div className="py-6">
           <p className="italic">
             <span className="font-bold">2023 - Current</span>
-            <span className="px-2">|</span>Volunteered as a mentor for junior IT trainee profiles in underserved communities with the non-governmental
-organization 'Junior Achievement', helping them with their first steps on their professional carrers
+            <span className="px-2">|</span>Volunteered as a mentor for junior IT trainee profiles in under served communities with the non-governmental
+organization 'Junior Achievement', helping them with their first steps on their professional careers
           </p>
         </div>
 
