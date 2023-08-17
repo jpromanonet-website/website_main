@@ -38,12 +38,8 @@ const resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Engineering Manager <span className="px-1"></span>{" "}
+              IT Manager <span className="px-1"></span>{" "}
             </p>
-          </div>
-          <div className="block sm:hidden">
-            <p>Engineering Manager</p>
-            <p>Teacher</p>
           </div>
         </div>
         <p>
