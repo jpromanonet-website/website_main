@@ -147,7 +147,7 @@ const resume = () => {
             <span className="font-bold italic">Adviters</span>
             <span className="px-2">|</span>Buenos Aires, AR
           </p>
-          <p className="py-1 italic">IT Manager (01/2023 - Current)</p>
+          <p className="py-1 italic">Engineering Manager (01/2023 - Current)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Designs, implements, and refines product development, testing, and
