@@ -10,7 +10,7 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-[#00A86B]"> Juan</span>
           </h1>
-          <h1 className="py-2 text-gray-700 sm:max-w-[70%] m-auto">Engineering Manager & Teacher</h1>
+          <h1 className="py-2 text-gray-700 sm:max-w-[70%] m-auto">Engineering Manager | Teacher</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             Empowering individuals and leading teams to success - I'm dedicated
             on guiding teams in the development of innovative products,
