@@ -177,6 +177,19 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">Ministry of Science, Technology, and Innovation</span>
+            <span className="px-2">|</span>Buenos Aires, AR
+          </p>
+          <p className="py-1 italic">Professor (08/2023 - Current)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+            Professor of beginner-level Python practicals in the "Argentina Program: Bridging the Gap between Technology and the Community."
+            </li>
+          </ul>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">Andreani Logistic Group</span>
             <span className="px-2">|</span>Buenos Aires, AR
           </p>
