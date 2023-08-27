@@ -35,10 +35,10 @@ const resume = () => {
             </a>
           </div>
         </div>
-        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+        <div className="text-center py-4 text-l font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Engineering Manager <span className="px-1"></span>{" "}
+              Engineering Manager | Teacher | Writer <span className="px-1"></span>{" "}
             </p>
           </div>
         </div>
@@ -158,6 +158,19 @@ const resume = () => {
               Leading teams in the development of new products, solutions, and
               processes while taking care of the development teams by helping
               them to achieve their professional and personal goals.
+            </li>
+          </ul>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">ENE - Enfoque de Negocios</span>
+            <span className="px-2">|</span>Buenos Aires, AR
+          </p>
+          <p className="py-1 italic">Journalist (08/2023 - Current)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+            I write a column about technology where I discuss various geeky content, technological innovations, and their relationship with different productive sectors.
             </li>
           </ul>
         </div>
