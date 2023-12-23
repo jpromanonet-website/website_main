@@ -84,15 +84,16 @@ const Navbar = () => {
                   </a>
                 </MenuItem>
                 <MenuItem onClick={handleClose}>
-                  <a href="https://another-blog-link.com" target="_blank">
+                  <a href="http://hackandmate.com.ar" target="_blank">
                     Hack & Mate
                   </a>
                 </MenuItem>
-                {/* Add more MenuItem components as needed */}
               </Menu>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
+              <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
+                Resume
+              </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
@@ -182,11 +183,11 @@ const Navbar = () => {
                 </MenuItem>
                 {/* Add more MenuItem components as needed */}
               </Menu>
-              <Link href="/resume">
+              <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
-              </Link>
+              </a>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
