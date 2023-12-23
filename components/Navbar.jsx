@@ -2,15 +2,27 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Menu from "@material-ui/core/Menu";
+import MenuItem from "@material-ui/core/MenuItem";
+import Button from "@material-ui/core/Button";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
+  const [anchorEl, setAnchorEl] = useState(null);
 
   const handleNav = () => {
     setNav(!nav);
+  };
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
   };
 
   useEffect(() => {
@@ -51,9 +63,33 @@ const Navbar = () => {
               </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <a href="https://divulgadoresporhobby.com" target="_blank">
+              <div
+                aria-controls="blog-menu"
+                aria-haspopup="true"
+                onClick={handleClick}
+                className="cursor-pointer"
+              >
                 Blog
-              </a>
+              </div>
+              <Menu
+                id="blog-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+              >
+                <MenuItem onClick={handleClose}>
+                  <a href="https://divulgadoresporhobby.com.ar" target="_blank">
+                    Divulgadores por hobby
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="https://another-blog-link.com" target="_blank">
+                    Hack & Mate
+                  </a>
+                </MenuItem>
+                {/* Add more MenuItem components as needed */}
+              </Menu>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/resume">Resume</Link>
@@ -121,11 +157,36 @@ const Navbar = () => {
                   Portfolio
                 </li>
               </a>
-              <a href="https://divulgadoresporhobby.com" target="_blank">
+              <div
+                onClick={handleClick}
+                className="cursor-pointer"
+              >
+                Blog
+              </div>
+              <Menu
+                id="mobile-blog-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+              >
+                <MenuItem onClick={handleClose}>
+                  <a href="https://divulgadoresporhobby.com.ar" target="_blank">
+                    Divulgadores por hobby
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="http://hackandmate.com.ar" target="_blank">
+                    Hack & Mate
+                  </a>
+                </MenuItem>
+                {/* Add more MenuItem components as needed */}
+              </Menu>
+              <Link href="/resume">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Blog
+                  Resume
                 </li>
-              </a>
+              </Link>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
