@@ -137,7 +137,7 @@ const Navbar = () => {
             <div className="border-b border-gray-300 my-4"></div>
           </div>
           <div className="py-4 flex flex-col">
-            <ul className="uppercase">
+            <ul>
               <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Home
