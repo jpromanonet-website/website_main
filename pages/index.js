@@ -3,6 +3,7 @@ import About from '../components/About'
 import Contact from '../components/Contact'
 import Main from '../components/Main'
 import Skills from '../components/Skills'
+import OpenSource from '../components/OpenSource'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
     <Main />
     <About />
+    <OpenSource />
     <Skills />
     <Contact />
     </div>
