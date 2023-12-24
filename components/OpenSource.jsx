@@ -12,9 +12,8 @@ function OpenSource() {
       <div className="max-w-[1240px] m-auto">
         <p className="uppercase text-xl tracking-widest text-[#000] mb-5">Open Source Projects</p>
         <p className="py-2 text-gray-600">
-        I am passionate about contributing to open source projects and actively participate in various initiatives within the community. My involvement ranges from submitting code enhancements, fixing bugs, and collaborating with fellow developers to improve the overall functionality and usability of different projects. 
-          </p>
-        <br/>
+          I am passionate about contributing to open source projects and actively participate in various initiatives within the community. My involvement ranges from submitting code enhancements, fixing bugs, and collaborating with fellow developers to improve the overall functionality and usability of different projects. 
+        </p>
         <br/>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={6} md={3}>
