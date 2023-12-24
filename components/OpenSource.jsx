@@ -39,7 +39,7 @@ function OpenSource() {
                   Maintainer at Slackware Argentina
                 </Typography>
                 <CardMedia style={{ width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <Image src={Slack} alt="Slackware Logo" width={150} height={150} />
+                  <Image src={Slack} alt="Slackware Logo" width={300} height={150} />
                 </CardMedia>
                 <br/>
                 <Button variant="contained" color="primary" href="https://github.com/slack-ar" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
