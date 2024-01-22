@@ -39,7 +39,7 @@ function OpenSource() {
             <Card>
               <CardContent>
                 <Typography variant="h6" color="textPrimary" gutterBottom>
-                  Organizer at FliSol
+                  Organizer at FLISol - CABA
                 </Typography>
                 <CardMedia style={{ width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Image src={flisol} alt="FliSol Logo" width={300} height={150} />
