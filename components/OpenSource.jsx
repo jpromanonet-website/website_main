@@ -23,7 +23,7 @@ function OpenSource() {
             <Card>
               <CardContent>
                 <Typography variant="h6" color="textPrimary" gutterBottom>
-                  Chief Engineer at Ututo
+                  Chief Coordinator at Ututo
                 </Typography>
                 <CardMedia style={{ width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Image src={ututo} alt="Ututo Logo" width={300} height={150} />
