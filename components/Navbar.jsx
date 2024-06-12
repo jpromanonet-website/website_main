@@ -83,7 +83,7 @@ const Navbar = () => {
               >
                 <MenuItem onClick={handleClose}>
                   <a href="https://jpromanonet.medium.com" target="_blank">
-                    Divulgadores por hobby
+                    Personal blog
                   </a>
                 </MenuItem>
                 <MenuItem onClick={handleClose}>
