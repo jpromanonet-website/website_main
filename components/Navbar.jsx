@@ -180,8 +180,8 @@ const Navbar = () => {
                 onClose={handleClose}
               >
                 <MenuItem onClick={handleClose}>
-                  <a href="https://divulgadoresporhobby.com.ar" target="_blank">
-                    Divulgadores por hobby
+                  <a href="https://jpromanonet.medium.com" target="_blank">
+                    Personal blog
                   </a>
                 </MenuItem>
                 <MenuItem onClick={handleClose}>
