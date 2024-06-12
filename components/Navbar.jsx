@@ -61,7 +61,7 @@ const Navbar = () => {
               <Link href="/#opensource">Open Source</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <a href="http://portfolio.jpromano.net" target="_blank">
+              <a href="https://jpromanonet-portfolio.vercel.app" target="_blank">
                 Portfolio
               </a>
             </li>
@@ -82,7 +82,7 @@ const Navbar = () => {
                 onClose={handleClose}
               >
                 <MenuItem onClick={handleClose}>
-                  <a href="https://divulgadoresporhobby.com.ar" target="_blank">
+                  <a href="https://jpromanonet.medium.com" target="_blank">
                     Divulgadores por hobby
                   </a>
                 </MenuItem>
