@@ -211,6 +211,31 @@ const Navbar = () => {
                 </MenuItem>
                 {/* Add more MenuItem components as needed */}
               </Menu>
+              <div
+                onClick={handleClick}
+                className="cursor-pointer"
+              >
+                Podcasts
+              </div>
+              <Menu
+                id="mobile-blog-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+              >
+                <MenuItem onClick={handleClose}>
+                  <a href="https://jpromanonet-blog.vercel.app" target="_blank">
+                    Blog Personal
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="https://jpromanonet.medium.com" target="_blank">
+                    Medium
+                  </a>
+                </MenuItem>
+                {/* Add more MenuItem components as needed */}
+              </Menu>
               <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
