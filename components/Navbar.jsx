@@ -4,7 +4,6 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
-import Button from "@material-ui/core/Button";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
