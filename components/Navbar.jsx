@@ -118,6 +118,11 @@ const Navbar = () => {
               </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
+              <a href="https://jpromanonet-news.vercel.app">
+                News
+              </a>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
               <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
                 Resume
               </a>
@@ -238,6 +243,11 @@ const Navbar = () => {
               <a href="https://jpromanonet-podcasts.vercel.app">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Podcasts
+                </li>
+              </a>
+              <a href="https://jpromanonet-news.vercel.app">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  News
                 </li>
               </a>
               <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
