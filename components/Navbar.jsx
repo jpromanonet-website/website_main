@@ -4,7 +4,6 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
-import Podcasts from "./Podcasts";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -139,7 +138,7 @@ const Navbar = () => {
                 onClose={handleClosePodcasts}
               >
                 <MenuItem onClick={handleClosePodcasts}>
-                  <a href={Podcasts}>
+                  <a href="https://open.spotify.com/show/6E6Vk5F5XN3DsT4EWLux6I" target="_blank">
                     Ututo Nights
                   </a>
                 </MenuItem>
@@ -277,7 +276,7 @@ const Navbar = () => {
                 onClose={handleClosePodcasts}
               >
                 <MenuItem onClick={handleCloseBlog}>
-                  <a href={Podcasts}>
+                  <a href="https://open.spotify.com/show/6E6Vk5F5XN3DsT4EWLux6I" target="_blank">
                     Ututo Nights
                   </a>
                 </MenuItem>
