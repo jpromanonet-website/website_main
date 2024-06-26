@@ -82,7 +82,7 @@ const Navbar = () => {
               >
                 <MenuItem onClick={handleCloseBlog}>
                   <a href="https://jpromanonet-blog.vercel.app" target="_blank">
-                    Blog Personal
+                    Personal Blog
                   </a>
                 </MenuItem>
                 <MenuItem onClick={handleCloseBlog}>
@@ -210,7 +210,7 @@ const Navbar = () => {
               >
                 <MenuItem onClick={handleCloseBlog}>
                   <a href="https://jpromanonet-blog.vercel.app" target="_blank">
-                    Blog Personal
+                    Personal Blog
                   </a>
                 </MenuItem>
                 <MenuItem onClick={handleCloseBlog}>
