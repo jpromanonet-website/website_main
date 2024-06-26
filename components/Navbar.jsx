@@ -224,44 +224,44 @@ const Navbar = () => {
                 </li>
               </a>
               <div
-                onClick={handleClick}
+                onClick={handleClickBlog}
                 className="cursor-pointer py-4 text-sm"
               >
                 Blogs
               </div>
               <Menu
                 id="mobile-blog-menu"
-                anchorEl={anchorEl}
+                anchorEl={anchorElBlog}
                 keepMounted
-                open={Boolean(anchorEl)}
-                onClose={handleClose}
+                open={Boolean(anchorElBlog)}
+                onClose={handleCloseBlog}
               >
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://jpromanonet-blog.vercel.app" target="_blank">
                     Blog Personal
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://jpromanonet.medium.com" target="_blank">
                     Medium
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://www.freecodecamp.org/news/author/jpromanonet" target="_blank">
                     Free Code Camp
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="http://hackandmate.com.ar" target="_blank">
                     Hack & Mate
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://blogdeututo.vercel.app" target="_blank">
                     Ututo's Blog
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
                     Enfoque de Negocios
                   </a>
