@@ -45,23 +45,7 @@ function OpenSource() {
                   <Image src={flisol} alt="FliSol Logo" width={300} height={150} />
                 </CardMedia>
                 <br/>
-                <Button variant="contained" color="primary" href="https://flisol.info/FLISOL2023/Argentina/CABA" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  View Project
-                </Button>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" color="textPrimary" gutterBottom>
-                  Writer at Free Code Camp
-                </Typography>
-                <CardMedia style={{ width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <Image src={fcc} alt="Free Code Camp Logo" width={300} height={150} />
-                </CardMedia>
-                <br/>
-                <Button variant="contained" color="primary" href="https://www.freecodecamp.org/news/author/jpromanonet" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <Button variant="contained" color="primary" href="https://flisol.info/FLISOL2024/Argentina/CABA" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   View Project
                 </Button>
               </CardContent>

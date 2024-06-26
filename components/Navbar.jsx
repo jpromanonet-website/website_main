@@ -170,7 +170,7 @@ const Navbar = () => {
                 onClick={handleClick}
                 className="cursor-pointer"
               >
-                Blog
+                Blogs
               </div>
               <Menu
                 id="mobile-blog-menu"
@@ -190,8 +190,23 @@ const Navbar = () => {
                   </a>
                 </MenuItem>
                 <MenuItem onClick={handleClose}>
+                  <a href="https://www.freecodecamp.org/news/author/jpromanonet" target="_blank">
+                    Free Code Camp
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
                   <a href="http://hackandmate.com.ar" target="_blank">
                     Hack & Mate
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="https://blogdeututo.vercel.app" target="_blank">
+                    Ututo's Blog
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
+                    Enfoque de Negocios
                   </a>
                 </MenuItem>
                 {/* Add more MenuItem components as needed */}
