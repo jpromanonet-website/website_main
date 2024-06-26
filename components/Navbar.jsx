@@ -139,13 +139,8 @@ const Navbar = () => {
                 onClose={handleClosePodcasts}
               >
                 <MenuItem onClick={handleClosePodcasts}>
-                  <a href="https://jpromanonet.medium.com" target="_blank">
-                    Personal blog
-                  </a>
-                </MenuItem>
-                <MenuItem onClick={handleClosePodcasts}>
-                  <a href="http://hackandmate.com.ar" target="_blank">
-                    Hack & Mate
+                  <a href="https://open.spotify.com/show/6E6Vk5F5XN3DsT4EWLux6I" target="_blank">
+                    Ututo Nights
                   </a>
                 </MenuItem>
               </Menu>
@@ -264,6 +259,26 @@ const Navbar = () => {
                 <MenuItem onClick={handleCloseBlog}>
                   <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
                     Enfoque de Negocios
+                  </a>
+                </MenuItem>
+                {/* Add more MenuItem components as needed */}
+              </Menu>
+              <div
+                onClick={handleClickPodcasts}
+                className="cursor-pointer py-4 text-sm"
+              >
+                Podcasts
+              </div>
+              <Menu
+                id="mobile-podcasts-menu"
+                anchorEl={anchorElPodcasts}
+                keepMounted
+                open={Boolean(anchorElPodcasts)}
+                onClose={handleClosePodcasts}
+              >
+                <MenuItem onClick={handleCloseBlog}>
+                  <a href="https://open.spotify.com/show/6E6Vk5F5XN3DsT4EWLux6I" target="_blank">
+                    Ututo Nights
                   </a>
                 </MenuItem>
                 {/* Add more MenuItem components as needed */}
