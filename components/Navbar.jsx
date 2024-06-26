@@ -11,7 +11,6 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const [anchorElBlog, setAnchorElBlog] = useState(null);
-  const [anchorElPodcasts, setAnchorElPodcasts] = useState(null);
 
   const handleNav = () => {
     setNav(!nav);
@@ -23,14 +22,6 @@ const Navbar = () => {
 
   const handleCloseBlog = () => {
     setAnchorElBlog(null);
-  };
-
-  const handleClickPodcasts = (event) => {
-    setAnchorElPodcasts(event.currentTarget);
-  };
-
-  const handleClosePodcasts = () => {
-    setAnchorElPodcasts(null);
   };
 
   useEffect(() => {
@@ -122,27 +113,9 @@ const Navbar = () => {
               </Menu>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <div
-                aria-controls="podcasts-menu"
-                aria-haspopup="true"
-                onClick={handleClickPodcasts}
-                className="cursor-pointer"
-              >
+              <a href="https://jpromanonet-podcasts.vercel.app">
                 Podcasts
-              </div>
-              <Menu
-                id="podcasts-menu"
-                anchorEl={anchorElPodcasts}
-                keepMounted
-                open={Boolean(anchorElPodcasts)}
-                onClose={handleClosePodcasts}
-              >
-                <MenuItem onClick={handleClosePodcasts}>
-                  <a href="https://open.spotify.com/show/6E6Vk5F5XN3DsT4EWLux6I" target="_blank">
-                    Ututo Nights
-                  </a>
-                </MenuItem>
-              </Menu>
+              </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
@@ -262,26 +235,11 @@ const Navbar = () => {
                 </MenuItem>
                 {/* Add more MenuItem components as needed */}
               </Menu>
-              <div
-                onClick={handleClickPodcasts}
-                className="cursor-pointer py-4 text-sm"
-              >
-                Podcasts
-              </div>
-              <Menu
-                id="mobile-podcasts-menu"
-                anchorEl={anchorElPodcasts}
-                keepMounted
-                open={Boolean(anchorElPodcasts)}
-                onClose={handleClosePodcasts}
-              >
-                <MenuItem onClick={handleCloseBlog}>
-                  <a href="https://open.spotify.com/show/6E6Vk5F5XN3DsT4EWLux6I" target="_blank">
-                    Ututo Nights
-                  </a>
-                </MenuItem>
-                {/* Add more MenuItem components as needed */}
-              </Menu>
+              <a href="https://jpromanonet-podcasts.vercel.app">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Podcasts
+                </li>
+              </a>
               <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
