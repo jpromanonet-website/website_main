@@ -216,7 +216,7 @@ const Navbar = () => {
               </a>
               <div
                 onClick={handleClick}
-                className="cursor-pointer"
+                className="cursor-pointer py-4 text-sm"
               >
                 Blogs
               </div>
