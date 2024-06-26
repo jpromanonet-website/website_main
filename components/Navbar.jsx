@@ -115,7 +115,7 @@ const Navbar = () => {
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <div
-                aria-controls="blog-menu"
+                aria-controls="podcasts-menu"
                 aria-haspopup="true"
                 onClick={handleClick}
                 className="cursor-pointer"
