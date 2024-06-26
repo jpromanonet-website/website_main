@@ -29,7 +29,7 @@ function OpenSource() {
                   <Image src={ututo} alt="Ututo Logo" width={300} height={150} />
                 </CardMedia>
                 <br/>
-                <Button variant="contained" color="primary" href="http://www.ututo.org" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <Button variant="contained" color="primary" href="http://www.ututo.ar" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   View Project
                 </Button>
               </CardContent>
