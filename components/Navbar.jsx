@@ -123,7 +123,7 @@ const Navbar = () => {
                 Podcasts
               </div>
               <Menu
-                id="blog-menu"
+                id="podcasts-menu"
                 anchorEl={anchorEl}
                 keepMounted
                 open={Boolean(anchorEl)}
