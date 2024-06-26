@@ -138,12 +138,12 @@ const Navbar = () => {
                 open={Boolean(anchorElPodcasts)}
                 onClose={handleClosePodcasts}
               >
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleClosePodcasts}>
                   <a href="https://jpromanonet.medium.com" target="_blank">
                     Personal blog
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleClosePodcasts}>
                   <a href="http://hackandmate.com.ar" target="_blank">
                     Hack & Mate
                   </a>
