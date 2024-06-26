@@ -81,7 +81,7 @@ const Navbar = () => {
                 onClick={handleClickBlog}
                 className="cursor-pointer"
               >
-                Blog
+                Blogs
               </div>
               <Menu
                 id="blog-menu"
