@@ -11,18 +11,27 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
-  const [anchorEl, setAnchorEl] = useState(null);
+  const [anchorElBlog, setAnchorElBlog] = useState(null);
+  const [anchorElPodcasts, setAnchorElPodcasts] = useState(null);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
+  const handleClickBlog = (event) => {
+    setAnchorElBlog(event.currentTarget);
   };
 
-  const handleClose = () => {
-    setAnchorEl(null);
+  const handleCloseBlog = () => {
+    setAnchorElBlog(null);
+  };
+
+  const handleClickPodcasts = (event) => {
+    setAnchorElPodcasts(event.currentTarget);
+  };
+
+  const handleClosePodcasts = () => {
+    setAnchorElPodcasts(null);
   };
 
   useEffect(() => {
@@ -69,26 +78,69 @@ const Navbar = () => {
               <div
                 aria-controls="blog-menu"
                 aria-haspopup="true"
-                onClick={handleClick}
+                onClick={handleClickBlog}
                 className="cursor-pointer"
               >
-                Blog
+                Blogs
               </div>
               <Menu
                 id="blog-menu"
-                anchorEl={anchorEl}
+                anchorEl={anchorElBlog}
                 keepMounted
-                open={Boolean(anchorEl)}
-                onClose={handleClose}
+                open={Boolean(anchorElBlog)}
+                onClose={handleCloseBlog}
               >
-                <MenuItem onClick={handleClose}>
-                  <a href="https://jpromanonet.medium.com" target="_blank">
-                    Personal blog
+                <MenuItem onClick={handleCloseBlog}>
+                  <a href="https://jpromanonet-blog.vercel.app" target="_blank">
+                    Blog Personal
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
+                  <a href="https://jpromanonet.medium.com" target="_blank">
+                    Medium
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBlog}>
+                  <a href="https://www.freecodecamp.org/news/author/jpromanonet" target="_blank">
+                    Free Code Camp
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="http://hackandmate.com.ar" target="_blank">
                     Hack & Mate
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBlog}>
+                  <a href="https://blogdeututo.vercel.app" target="_blank">
+                    Ututo's Blog
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleCloseBlog}>
+                  <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
+                    Enfoque de Negocios
+                  </a>
+                </MenuItem>
+              </Menu>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <div
+                aria-controls="podcasts-menu"
+                aria-haspopup="true"
+                onClick={handleClickPodcasts}
+                className="cursor-pointer"
+              >
+                Podcasts
+              </div>
+              <Menu
+                id="podcasts-menu"
+                anchorEl={anchorElPodcasts}
+                keepMounted
+                open={Boolean(anchorElPodcasts)}
+                onClose={handleClosePodcasts}
+              >
+                <MenuItem onClick={handleClosePodcasts}>
+                  <a href="https://open.spotify.com/show/6E6Vk5F5XN3DsT4EWLux6I" target="_blank">
+                    Ututo Nights
                   </a>
                 </MenuItem>
               </Menu>
@@ -161,52 +213,72 @@ const Navbar = () => {
                   Open Source
                 </li>
               </Link>
-              <a href="http://portfolio.jpromano.net" target="_blank">
+              <a href="http://jpromanonet-portfolio.vercel.app" target="_blank">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Portfolio
                 </li>
               </a>
               <div
-                onClick={handleClick}
-                className="cursor-pointer"
+                onClick={handleClickBlog}
+                className="cursor-pointer py-4 text-sm"
               >
                 Blogs
               </div>
               <Menu
                 id="mobile-blog-menu"
-                anchorEl={anchorEl}
+                anchorEl={anchorElBlog}
                 keepMounted
-                open={Boolean(anchorEl)}
-                onClose={handleClose}
+                open={Boolean(anchorElBlog)}
+                onClose={handleCloseBlog}
               >
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://jpromanonet-blog.vercel.app" target="_blank">
                     Blog Personal
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://jpromanonet.medium.com" target="_blank">
                     Medium
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://www.freecodecamp.org/news/author/jpromanonet" target="_blank">
                     Free Code Camp
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="http://hackandmate.com.ar" target="_blank">
                     Hack & Mate
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://blogdeututo.vercel.app" target="_blank">
                     Ututo's Blog
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleClose}>
+                <MenuItem onClick={handleCloseBlog}>
                   <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
                     Enfoque de Negocios
+                  </a>
+                </MenuItem>
+                {/* Add more MenuItem components as needed */}
+              </Menu>
+              <div
+                onClick={handleClickPodcasts}
+                className="cursor-pointer py-4 text-sm"
+              >
+                Podcasts
+              </div>
+              <Menu
+                id="mobile-podcasts-menu"
+                anchorEl={anchorElPodcasts}
+                keepMounted
+                open={Boolean(anchorElPodcasts)}
+                onClose={handleClosePodcasts}
+              >
+                <MenuItem onClick={handleCloseBlog}>
+                  <a href="https://open.spotify.com/show/6E6Vk5F5XN3DsT4EWLux6I" target="_blank">
+                    Ututo Nights
                   </a>
                 </MenuItem>
                 {/* Add more MenuItem components as needed */}
