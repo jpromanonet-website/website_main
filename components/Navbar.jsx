@@ -211,12 +211,7 @@ const Navbar = () => {
                 </MenuItem>
                 {/* Add more MenuItem components as needed */}
               </Menu>
-              <div
-                onClick={handleClick}
-                className="cursor-pointer"
-              >
-                Podcasts
-              </div>
+              
               <Menu
                 id="mobile-blog-menu"
                 anchorEl={anchorEl}
@@ -241,6 +236,12 @@ const Navbar = () => {
                   Resume
                 </li>
               </a>
+              <div
+                onClick={handleClick}
+                className="cursor-pointer"
+              >
+                Podcasts
+              </div>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
