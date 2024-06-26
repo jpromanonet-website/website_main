@@ -82,6 +82,54 @@ const Navbar = () => {
                 onClose={handleClose}
               >
                 <MenuItem onClick={handleClose}>
+                  <a href="https://jpromanonet-blog.vercel.app" target="_blank">
+                    Blog Personal
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="https://jpromanonet.medium.com" target="_blank">
+                    Medium
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="https://www.freecodecamp.org/news/author/jpromanonet" target="_blank">
+                    Free Code Camp
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="http://hackandmate.com.ar" target="_blank">
+                    Hack & Mate
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="https://blogdeututo.vercel.app" target="_blank">
+                    Ututo's Blog
+                  </a>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
+                    Enfoque de Negocios
+                  </a>
+                </MenuItem>
+              </Menu>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <div
+                aria-controls="blog-menu"
+                aria-haspopup="true"
+                onClick={handleClick}
+                className="cursor-pointer"
+              >
+                Podcasts
+              </div>
+              <Menu
+                id="blog-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+              >
+                <MenuItem onClick={handleClose}>
                   <a href="https://jpromanonet.medium.com" target="_blank">
                     Personal blog
                   </a>
@@ -207,26 +255,6 @@ const Navbar = () => {
                 <MenuItem onClick={handleClose}>
                   <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
                     Enfoque de Negocios
-                  </a>
-                </MenuItem>
-                {/* Add more MenuItem components as needed */}
-              </Menu>
-              
-              <Menu
-                id="mobile-blog-menu"
-                anchorEl={anchorEl}
-                keepMounted
-                open={Boolean(anchorEl)}
-                onClose={handleClose}
-              >
-                <MenuItem onClick={handleClose}>
-                  <a href="https://jpromanonet-blog.vercel.app" target="_blank">
-                    Blog Personal
-                  </a>
-                </MenuItem>
-                <MenuItem onClick={handleClose}>
-                  <a href="https://jpromanonet.medium.com" target="_blank">
-                    Medium
                   </a>
                 </MenuItem>
                 {/* Add more MenuItem components as needed */}
