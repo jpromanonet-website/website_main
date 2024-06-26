@@ -264,12 +264,6 @@ const Navbar = () => {
                   Resume
                 </li>
               </a>
-              <div
-                onClick={handleClick}
-                className="cursor-pointer"
-              >
-                Podcasts
-              </div>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
