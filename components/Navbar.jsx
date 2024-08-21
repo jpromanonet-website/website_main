@@ -4,6 +4,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
+import { FaHandHoldingHeart } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -105,16 +106,21 @@ const Navbar = () => {
                     Ututo's Blog
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleCloseBlog}>
-                  <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
-                    Enfoque de Negocios
-                  </a>
-                </MenuItem>
               </Menu>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <a href="https://jpromanonet-ventures.vercel.app">
+                Ventures
+              </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <a href="https://jpromanonet-podcasts.vercel.app">
                 Podcasts
+              </a>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <a href="https://www.youtube.com/@jpromanonet">
+                YouTube
               </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
@@ -124,7 +130,7 @@ const Navbar = () => {
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
-                Resume
+                Resumes
               </a>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
@@ -233,16 +239,21 @@ const Navbar = () => {
                     Ututo's Blog
                   </a>
                 </MenuItem>
-                <MenuItem onClick={handleCloseBlog}>
-                  <a href="https://www.enfoquedenegocios.com.ar/author/juanpablo-romano/" target="_blank">
-                    Enfoque de Negocios
-                  </a>
-                </MenuItem>
                 {/* Add more MenuItem components as needed */}
               </Menu>
+              <a href="https://jpromanonet-ventures.vercel.app">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Ventures
+                </li>
+              </a>
               <a href="https://jpromanonet-podcasts.vercel.app">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Podcasts
+                </li>
+              </a>
+              <a href="https://www.youtube.com/@jpromanonet">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  YouTube
                 </li>
               </a>
               <a href="https://jpromanonet-news.vercel.app">
@@ -252,7 +263,7 @@ const Navbar = () => {
               </a>
               <a href="https://www.canva.com/design/DAFyOUofKq0/-bNDpWwA2V_9tNA7Vuy9-A/view?utm_content=DAFyOUofKq0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
+                  Resumes
                 </li>
               </a>
               <Link href="/#contact">
