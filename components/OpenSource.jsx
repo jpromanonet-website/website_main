@@ -3,11 +3,8 @@ import { Card, CardContent, CardMedia, Typography, Button, Grid } from "@materia
 import Image from "next/image";
 
 {/* Import projects images */}
-import Slack from '../public/assets/slack.png';
 import fcc from '../public/assets/fcclogo.png';
-import flisol from '../public/assets/flisol.png'
 import ututo from '../public/assets/ututo.png'
-import moodle from '../public/assets/moodle.png'
 
 function OpenSource() {
   return (
@@ -23,7 +20,7 @@ function OpenSource() {
             <Card>
               <CardContent>
                 <Typography variant="h6" color="textPrimary" gutterBottom>
-                  Chief Coordinator at Ututo
+                  Chief Coordinator <br/>at Ututo
                 </Typography>
                 <CardMedia style={{ width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <Image src={ututo} alt="Ututo Logo" width={300} height={150} />
@@ -39,45 +36,13 @@ function OpenSource() {
             <Card>
               <CardContent>
                 <Typography variant="h6" color="textPrimary" gutterBottom>
-                  Organizer at FLISol - CABA
+                  Community Writer <br/>at Free Code Camp
                 </Typography>
                 <CardMedia style={{ width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <Image src={flisol} alt="FliSol Logo" width={300} height={150} />
+                  <Image src={fcc} alt="Free Code Camp Logo" width={300} height={150} />
                 </CardMedia>
                 <br/>
-                <Button variant="contained" color="primary" href="https://flisol.info/FLISOL2024/Argentina/CABA" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  View Project
-                </Button>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" color="textPrimary" gutterBottom>
-                  Maintainer at Slackware
-                </Typography>
-                <CardMedia style={{ width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <Image src={Slack} alt="Slackware Logo" width={300} height={150} />
-                </CardMedia>
-                <br/>
-                <Button variant="contained" color="primary" href="https://github.com/slack-ar" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  View Project
-                </Button>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" color="textPrimary" gutterBottom>
-                  Translator at Moodle
-                </Typography>
-                <CardMedia style={{ width: '100%', height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <Image src={moodle} alt="Moodle Logo" width={300} height={150} />
-                </CardMedia>
-                <br/>
-                <Button variant="contained" color="primary" href="https://lang.moodle.org" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <Button variant="contained" color="primary" href="https://www.freecodecamp.org/news/author/jpromanonet" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   View Project
                 </Button>
               </CardContent>
