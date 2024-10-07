@@ -7,6 +7,7 @@ function WorkCard(props) {
                 <span>{props.icon}</span>
                 <h2>{props.name}</h2>
                 <p>{props.desc}</p>
+                <p>{props.link}</p>
             </div>
         </>
     );
