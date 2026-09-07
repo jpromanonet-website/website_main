@@ -175,7 +175,7 @@ require APP_ROOT . '/includes/header.php';
                 <div class="medium-latest__body">
                     <span class="medium-latest__meta">Medium</span>
                     <h3 class="medium-latest__title"><?= e((string) $latestMedium['title']) ?></h3>
-                    <span class="medium-latest__cta">Read on Medium â†’</span>
+                    <span class="medium-latest__cta">Read on Medium &rarr;</span>
                 </div>
             </a>
         </section>
